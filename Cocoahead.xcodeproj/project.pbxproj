@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7411847F1BD21AA60063ACA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7411847E1BD21AA60063ACA5 /* main.m */; };
+		741184821BD21AA60063ACA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 741184811BD21AA60063ACA5 /* AppDelegate.m */; };
+		741184851BD21AA60063ACA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741184841BD21AA60063ACA5 /* ViewController.m */; };
+		741184881BD21AA60063ACA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741184861BD21AA60063ACA5 /* Main.storyboard */; };
+		7411848A1BD21AA60063ACA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741184891BD21AA60063ACA5 /* Assets.xcassets */; };
+		741184951BD21AA70063ACA5 /* CocoaheadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741184941BD21AA70063ACA5 /* CocoaheadTests.m */; };
+		741184A01BD21AA70063ACA5 /* CocoaheadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7411849F1BD21AA70063ACA5 /* CocoaheadUITests.m */; };
+		741184AF1BD21C720063ACA5 /* IKTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741184AE1BD21C720063ACA5 /* IKTVController.m */; };
+		741184B11BD21CA60063ACA5 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741184B01BD21CA60063ACA5 /* GameController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		741184911BD21AA70063ACA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741184721BD21AA60063ACA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 741184791BD21AA60063ACA5;
+			remoteInfo = Cocoahead;
+		};
+		7411849C1BD21AA70063ACA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741184721BD21AA60063ACA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 741184791BD21AA60063ACA5;
+			remoteInfo = Cocoahead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7411847A1BD21AA60063ACA5 /* Cocoahead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocoahead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7411847E1BD21AA60063ACA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		741184801BD21AA60063ACA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		741184811BD21AA60063ACA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		741184831BD21AA60063ACA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		741184841BD21AA60063ACA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		741184871BD21AA60063ACA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		741184891BD21AA60063ACA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7411848B1BD21AA60063ACA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741184901BD21AA70063ACA5 /* CocoaheadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaheadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		741184941BD21AA70063ACA5 /* CocoaheadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaheadTests.m; sourceTree = "<group>"; };
+		741184961BD21AA70063ACA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7411849B1BD21AA70063ACA5 /* CocoaheadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaheadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7411849F1BD21AA70063ACA5 /* CocoaheadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaheadUITests.m; sourceTree = "<group>"; };
+		741184A11BD21AA70063ACA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741184AD1BD21C720063ACA5 /* IKTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKTVController.h; sourceTree = "<group>"; };
+		741184AE1BD21C720063ACA5 /* IKTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKTVController.m; sourceTree = "<group>"; };
+		741184B01BD21CA60063ACA5 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		741184B21BD24AB40063ACA5 /* Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		741184771BD21AA60063ACA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741184B11BD21CA60063ACA5 /* GameController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7411848D1BD21AA70063ACA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741184981BD21AA70063ACA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741184711BD21AA60063ACA5 = {
+			isa = PBXGroup;
+			children = (
+				7411847C1BD21AA60063ACA5 /* Cocoahead */,
+				741184931BD21AA70063ACA5 /* CocoaheadTests */,
+				7411849E1BD21AA70063ACA5 /* CocoaheadUITests */,
+				7411847B1BD21AA60063ACA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7411847B1BD21AA60063ACA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7411847A1BD21AA60063ACA5 /* Cocoahead.app */,
+				741184901BD21AA70063ACA5 /* CocoaheadTests.xctest */,
+				7411849B1BD21AA70063ACA5 /* CocoaheadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7411847C1BD21AA60063ACA5 /* Cocoahead */ = {
+			isa = PBXGroup;
+			children = (
+				741184B21BD24AB40063ACA5 /* Vector.h */,
+				741184801BD21AA60063ACA5 /* AppDelegate.h */,
+				741184811BD21AA60063ACA5 /* AppDelegate.m */,
+				741184831BD21AA60063ACA5 /* ViewController.h */,
+				741184841BD21AA60063ACA5 /* ViewController.m */,
+				741184AD1BD21C720063ACA5 /* IKTVController.h */,
+				741184AE1BD21C720063ACA5 /* IKTVController.m */,
+				741184861BD21AA60063ACA5 /* Main.storyboard */,
+				741184891BD21AA60063ACA5 /* Assets.xcassets */,
+				7411848B1BD21AA60063ACA5 /* Info.plist */,
+				7411847D1BD21AA60063ACA5 /* Supporting Files */,
+			);
+			path = Cocoahead;
+			sourceTree = "<group>";
+		};
+		7411847D1BD21AA60063ACA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				741184B01BD21CA60063ACA5 /* GameController.framework */,
+				7411847E1BD21AA60063ACA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		741184931BD21AA70063ACA5 /* CocoaheadTests */ = {
+			isa = PBXGroup;
+			children = (
+				741184941BD21AA70063ACA5 /* CocoaheadTests.m */,
+				741184961BD21AA70063ACA5 /* Info.plist */,
+			);
+			path = CocoaheadTests;
+			sourceTree = "<group>";
+		};
+		7411849E1BD21AA70063ACA5 /* CocoaheadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7411849F1BD21AA70063ACA5 /* CocoaheadUITests.m */,
+				741184A11BD21AA70063ACA5 /* Info.plist */,
+			);
+			path = CocoaheadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		741184791BD21AA60063ACA5 /* Cocoahead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741184A41BD21AA70063ACA5 /* Build configuration list for PBXNativeTarget "Cocoahead" */;
+			buildPhases = (
+				741184761BD21AA60063ACA5 /* Sources */,
+				741184771BD21AA60063ACA5 /* Frameworks */,
+				741184781BD21AA60063ACA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cocoahead;
+			productName = Cocoahead;
+			productReference = 7411847A1BD21AA60063ACA5 /* Cocoahead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7411848F1BD21AA70063ACA5 /* CocoaheadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741184A71BD21AA70063ACA5 /* Build configuration list for PBXNativeTarget "CocoaheadTests" */;
+			buildPhases = (
+				7411848C1BD21AA70063ACA5 /* Sources */,
+				7411848D1BD21AA70063ACA5 /* Frameworks */,
+				7411848E1BD21AA70063ACA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				741184921BD21AA70063ACA5 /* PBXTargetDependency */,
+			);
+			name = CocoaheadTests;
+			productName = CocoaheadTests;
+			productReference = 741184901BD21AA70063ACA5 /* CocoaheadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7411849A1BD21AA70063ACA5 /* CocoaheadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741184AA1BD21AA70063ACA5 /* Build configuration list for PBXNativeTarget "CocoaheadUITests" */;
+			buildPhases = (
+				741184971BD21AA70063ACA5 /* Sources */,
+				741184981BD21AA70063ACA5 /* Frameworks */,
+				741184991BD21AA70063ACA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7411849D1BD21AA70063ACA5 /* PBXTargetDependency */,
+			);
+			name = CocoaheadUITests;
+			productName = CocoaheadUITests;
+			productReference = 7411849B1BD21AA70063ACA5 /* CocoaheadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		741184721BD21AA60063ACA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Mindvalley;
+				TargetAttributes = {
+					741184791BD21AA60063ACA5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					7411848F1BD21AA70063ACA5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 741184791BD21AA60063ACA5;
+					};
+					7411849A1BD21AA70063ACA5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 741184791BD21AA60063ACA5;
+					};
+				};
+			};
+			buildConfigurationList = 741184751BD21AA60063ACA5 /* Build configuration list for PBXProject "Cocoahead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 741184711BD21AA60063ACA5;
+			productRefGroup = 7411847B1BD21AA60063ACA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				741184791BD21AA60063ACA5 /* Cocoahead */,
+				7411848F1BD21AA70063ACA5 /* CocoaheadTests */,
+				7411849A1BD21AA70063ACA5 /* CocoaheadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		741184781BD21AA60063ACA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7411848A1BD21AA60063ACA5 /* Assets.xcassets in Resources */,
+				741184881BD21AA60063ACA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7411848E1BD21AA70063ACA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741184991BD21AA70063ACA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		741184761BD21AA60063ACA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741184851BD21AA60063ACA5 /* ViewController.m in Sources */,
+				741184AF1BD21C720063ACA5 /* IKTVController.m in Sources */,
+				741184821BD21AA60063ACA5 /* AppDelegate.m in Sources */,
+				7411847F1BD21AA60063ACA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7411848C1BD21AA70063ACA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741184951BD21AA70063ACA5 /* CocoaheadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741184971BD21AA70063ACA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741184A01BD21AA70063ACA5 /* CocoaheadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		741184921BD21AA70063ACA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 741184791BD21AA60063ACA5 /* Cocoahead */;
+			targetProxy = 741184911BD21AA70063ACA5 /* PBXContainerItemProxy */;
+		};
+		7411849D1BD21AA70063ACA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 741184791BD21AA60063ACA5 /* Cocoahead */;
+			targetProxy = 7411849C1BD21AA70063ACA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		741184861BD21AA60063ACA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741184871BD21AA60063ACA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		741184A21BD21AA70063ACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		741184A31BD21AA70063ACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		741184A51BD21AA70063ACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Cocoahead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindvalley.tvos.sample.Cocoahead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		741184A61BD21AA70063ACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Cocoahead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindvalley.tvos.sample.Cocoahead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		741184A81BD21AA70063ACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CocoaheadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindvalley.tvos.sample.CocoaheadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cocoahead.app/Cocoahead";
+			};
+			name = Debug;
+		};
+		741184A91BD21AA70063ACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CocoaheadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindvalley.tvos.sample.CocoaheadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cocoahead.app/Cocoahead";
+			};
+			name = Release;
+		};
+		741184AB1BD21AA70063ACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CocoaheadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindvalley.tvos.sample.CocoaheadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cocoahead;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		741184AC1BD21AA70063ACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CocoaheadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindvalley.tvos.sample.CocoaheadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cocoahead;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		741184751BD21AA60063ACA5 /* Build configuration list for PBXProject "Cocoahead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741184A21BD21AA70063ACA5 /* Debug */,
+				741184A31BD21AA70063ACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741184A41BD21AA70063ACA5 /* Build configuration list for PBXNativeTarget "Cocoahead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741184A51BD21AA70063ACA5 /* Debug */,
+				741184A61BD21AA70063ACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		741184A71BD21AA70063ACA5 /* Build configuration list for PBXNativeTarget "CocoaheadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741184A81BD21AA70063ACA5 /* Debug */,
+				741184A91BD21AA70063ACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		741184AA1BD21AA70063ACA5 /* Build configuration list for PBXNativeTarget "CocoaheadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741184AB1BD21AA70063ACA5 /* Debug */,
+				741184AC1BD21AA70063ACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 741184721BD21AA60063ACA5 /* Project object */;
+}
