@@ -5,7 +5,7 @@ Contents are structured by folders
 The product of this software was used for demo on Cocoahead Malaysia (19th Oct) to feature Apple TV + Remote.
 
 ### 20151116 (Nov 16th 2015)
-The demo was to showcase how to perform logic test and application test with Xcode UI Testing
+The demo is showcasing unit test for logic testing and application test with Xcode UI Testing
 
 ## Author
 
